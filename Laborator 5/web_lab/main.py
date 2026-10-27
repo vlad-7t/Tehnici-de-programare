@@ -8,7 +8,6 @@ import webtools
 # ==========================================
 # Explicație: Dacă main.py ar avea propria funcție get_title, ultima definită sau 
 # importată în fișier ar suprascrie-o pe cealaltă, cauzând un conflict de nume.
-
 # ==========================================
 # Exercitiul 48
 # ==========================================

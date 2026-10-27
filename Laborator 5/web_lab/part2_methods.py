@@ -2,7 +2,7 @@
 
 BASE_URL = "https://cybercor.org"
 ECHO_URL = "https://httpbin.org"
-TIMEOUT = 10  # secunde
+TIMEOUT = 10  
 
 import time as t
 import requests
@@ -11,10 +11,10 @@ import requests
 # Exercitiul 9
 # ==========================================
 raspuns9 = requests.get(BASE_URL, timeout=TIMEOUT)
-print(raspuns9.status_code)  # atribut
-print(raspuns9.ok)           # atribut
-print(raspuns9.url)          # atribut
-print(raspuns9.encoding)     # atribut
+print(raspuns9.status_code) 
+print(raspuns9.ok)           
+print(raspuns9.url)          
+print(raspuns9.encoding)    
 t.sleep(1)
 
 # ==========================================
