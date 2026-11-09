@@ -1,0 +1,37 @@
+{
+  "suid": [
+    {
+      "cale": "/bin/cp",
+      "nume": "cp",
+      "risc": "mare"
+    },
+    {
+      "cale": "/usr/bin/find",
+      "nume": "find",
+      "risc": "mare"
+    },
+    {
+      "cale": "/usr/bin/nmap",
+      "nume": "nmap",
+      "risc": "mare"
+    },
+    {
+      "cale": "/usr/bin/vim.basic",
+      "nume": "vim.basic",
+      "risc": "mare"
+    }
+  ],
+  "sudo": [
+    {
+      "user": "ana",
+      "drept": "(ALL) NOPASSWD: /usr/bin/vim.basic",
+      "risc": "mare"
+    },
+    {
+      "user": "www-data",
+      "drept": "(root) NOPASSWD: /usr/bin/find",
+      "risc": "mare"
+    }
+  ],
+  "cron": []
+}
