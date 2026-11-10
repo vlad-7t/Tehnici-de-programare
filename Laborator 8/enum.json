@@ -1,69 +1,119 @@
 {
   "suid": [
     {
-      "cale": "/bin/cp",
-      "nume": "cp",
-      "risc": "mare"
-    },
-    {
-      "cale": "/bin/mount",
-      "nume": "mount",
+      "nume": "ksu",
+      "cale": "/usr/bin/ksu",
       "risc": "normal"
     },
     {
-      "cale": "/bin/su",
-      "nume": "su",
+      "nume": "chage",
+      "cale": "/usr/bin/chage",
       "risc": "normal"
     },
     {
-      "cale": "/bin/umount",
-      "nume": "umount",
-      "risc": "normal"
-    },
-    {
-      "cale": "/usr/bin/chfn",
-      "nume": "chfn",
-      "risc": "normal"
-    },
-    {
-      "cale": "/usr/bin/chsh",
-      "nume": "chsh",
-      "risc": "normal"
-    },
-    {
-      "cale": "/usr/bin/find",
-      "nume": "find",
-      "risc": "mare"
-    },
-    {
-      "cale": "/usr/bin/gpasswd",
       "nume": "gpasswd",
+      "cale": "/usr/bin/gpasswd",
       "risc": "normal"
     },
     {
-      "cale": "/usr/bin/newgrp",
-      "nume": "newgrp",
-      "risc": "normal"
-    },
-    {
-      "cale": "/usr/bin/nmap",
-      "nume": "nmap",
-      "risc": "mare"
-    },
-    {
-      "cale": "/usr/bin/passwd",
       "nume": "passwd",
+      "cale": "/usr/bin/passwd",
       "risc": "normal"
     },
     {
-      "cale": "/usr/bin/sudo",
       "nume": "sudo",
+      "cale": "/usr/bin/sudo",
       "risc": "normal"
     },
     {
-      "cale": "/usr/bin/vim.basic",
-      "nume": "vim.basic",
-      "risc": "mare"
+      "nume": "fusermount",
+      "cale": "/usr/bin/fusermount",
+      "risc": "normal"
+    },
+    {
+      "nume": "fusermount3",
+      "cale": "/usr/bin/fusermount3",
+      "risc": "normal"
+    },
+    {
+      "nume": "chfn",
+      "cale": "/usr/bin/chfn",
+      "risc": "normal"
+    },
+    {
+      "nume": "chsh",
+      "cale": "/usr/bin/chsh",
+      "risc": "normal"
+    },
+    {
+      "nume": "mount",
+      "cale": "/usr/bin/mount",
+      "risc": "normal"
+    },
+    {
+      "nume": "newgrp",
+      "cale": "/usr/bin/newgrp",
+      "risc": "normal"
+    },
+    {
+      "nume": "su",
+      "cale": "/usr/bin/su",
+      "risc": "normal"
+    },
+    {
+      "nume": "umount",
+      "cale": "/usr/bin/umount",
+      "risc": "normal"
+    },
+    {
+      "nume": "mount.nfs",
+      "cale": "/usr/bin/mount.nfs",
+      "risc": "normal"
+    },
+    {
+      "nume": "unix_chkpwd",
+      "cale": "/usr/bin/unix_chkpwd",
+      "risc": "normal"
+    },
+    {
+      "nume": "pkexec",
+      "cale": "/usr/bin/pkexec",
+      "risc": "normal"
+    },
+    {
+      "nume": "mount.cifs",
+      "cale": "/usr/bin/mount.cifs",
+      "risc": "normal"
+    },
+    {
+      "nume": "mail-dotlock",
+      "cale": "/usr/lib/mail-dotlock",
+      "risc": "normal"
+    },
+    {
+      "nume": "ssh-keysign",
+      "cale": "/usr/lib/ssh/ssh-keysign",
+      "risc": "normal"
+    },
+    {
+      "nume": "qemu-bridge-helper",
+      "cale": "/usr/lib/qemu/qemu-bridge-helper",
+      "risc": "normal"
+    },
+    {
+      "nume": "chrome-sandbox",
+      "cale": "/usr/lib/electron42/chrome-sandbox",
+      "risc": "normal"
+    },
+    {
+      "nume": "chrome-sandbox",
+      "cale": "/usr/lib/electron43/chrome-sandbox",
+      "risc": "normal"
+    },
+    {
+      "nume": "dbus-daemon-launch-helper",
+      "cale": "/usr/lib/dbus-daemon-launch-helper",
+      "risc": "normal"
     }
   ],
   "sudo": [
